@@ -10,8 +10,7 @@ headless: true
 weight: 65
 
 title: Projects
-subtitle: This list of projects represents the details of my experience across my \
-  career and how I supported customers' decision making on complex challenges.
+subtitle: This list of projects represents the details of my experience across my career and how I supported customers' decision making on complex challenges.
 
 content:
   # Page type to display. E.g. project.
