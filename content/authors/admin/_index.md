@@ -10,7 +10,7 @@ role: Principal Data Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: MITRE
+- name: The MITRE Corporation
   url: https://www.mitre.org/
 
 # Short bio (displayed in user profile at end of posts)
