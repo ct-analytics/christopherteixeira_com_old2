@@ -1,0 +1,13 @@
+{
+    "path" : "~/Google Drive/Side Projects/Website/christopherteixeira_com/static/files/Resume",
+    "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 4
+        },
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

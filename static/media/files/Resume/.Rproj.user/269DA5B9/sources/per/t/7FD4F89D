@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590963763713.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "688005591",
+    "id" : "7FD4F89D",
+    "lastKnownWriteTime" : 1597015753,
+    "last_content_update" : 1597015753170,
+    "path" : "~/Google Drive/Side Projects/Website/christopherteixeira_com/static/files/Resume/cv.Rmd",
+    "project_path" : "cv.Rmd",
+    "properties" : {
+        "cursorPosition" : "55,0",
+        "scrollLine" : "54"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
