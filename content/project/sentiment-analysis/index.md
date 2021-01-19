@@ -1,12 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Sentiment Analysis"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2021-01-18T19:29:18-05:00
+title: "Sentiment Analysis for specific Brand Products"
+summary: "Translating unstructured text to interpret feelings towards a brand."
+authors: 
+  - admin
+tags: 
+  - Epsilon
+categories: 
+  - Machine Learning
+  - R
+  - Tableau
+date: 2013-01-18T19:29:18-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -15,8 +20,8 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: "Credit - Ron Sela"
+  focal_point: "Smart"
   preview_only: false
 
 # Custom links (optional).
@@ -39,3 +44,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Analyze social media (Twitter) to determine sentiment around a client's brand and specific products. Using R, analyzed tweets to determine shifts in sentiment over time about a client's brand and general effectiveness of customer service. Produced visualizations through R and Tableau to help executives understand the sentiment analysis results.

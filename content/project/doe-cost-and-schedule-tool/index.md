@@ -1,12 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Doe Cost and Schedule Tool"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2021-01-18T19:26:57-05:00
+title: "Department of Energy Cost and Schedule Tool"
+summary: "Built a tool to determine changes to cost and schedule"
+authors: 
+  - admin
+tags: 
+  - MITRE
+categories: 
+  - Data Visualization
+  - JavaScript
+  - Operations Research
+  - Discrete Event Simulation
+date: 2016-04-01T19:26:57-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,7 +22,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Smart"
   preview_only: false
 
 # Custom links (optional).
@@ -39,3 +45,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Developed a discrete simulation model capable of performing lifecycle cost and schedule analysis. This model supports executives that make decisions on alternative strategies which are expected to cost on the order of tens of billions of dollars. The model, built entirely in JavaScript using SIM.JS, allows users to configure the schedule and efficiency of each alternative. After the model completes, results are displayed using a combination of D3 and TimelineJS libraries.

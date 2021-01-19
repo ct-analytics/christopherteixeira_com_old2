@@ -2,11 +2,16 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Customer Attrition Analysis"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2021-01-18T19:26:45-05:00
+summary: "Using machine learning to predict which accounts are likely to be closed."
+authors: 
+  - admin
+tags: 
+  - Epsilon
+categories: 
+  - Machine Learning
+  - Netezza
+  - R
+date: 2012-12-01T19:26:45-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,7 +21,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Smart"
   preview_only: false
 
 # Custom links (optional).
@@ -39,3 +44,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+I worked with team members to build a Bayesian Belief Network (BBN) on large data sources in Netezza to predict the likelihood of a person closing an account with our client. I compared the BBN model results against Logistic Regression to determine best modeling approach. The results showed that the Logistic Regression approach provided more accurate results, but required more resources to get that result.

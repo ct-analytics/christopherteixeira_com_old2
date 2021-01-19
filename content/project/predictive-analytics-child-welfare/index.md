@@ -1,12 +1,16 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Predictive Analytics Child Welfare"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2021-01-18T19:28:38-05:00
+title: "Predictive Analytics in Child Welfare"
+summary: "Supporting HHS/ASPE in their efforts to explain the use of predictive analytics to child welfare agencies."
+authors: 
+  - admin
+tags: 
+  - MITRE
+categories: 
+  - Machine Learning
+  - Data Analytics
+date: 2016-08-01T19:28:38-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -21,11 +25,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+- name: Website
+  url: https://aspe.hhs.gov/predictive-analytics-child-welfare
+  icon_pack: fas
+  icon: link
 
 url_code: ""
 url_pdf: ""
@@ -39,3 +43,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Lead a small team that interviewed several child welfare agencies to understand their progress in utilizing predictive analytics. This environmental scan resulted in two publicly released documents hosted on the Department of Health and Human Services Assistant Secretary for Planning and Evaluation website. 
+
+Separately, I led a small team that brought together six government agencies to analyze data around children in foster care to understand how their experiences impact their ability to lead health and independent lives. This involved working directly with a state to obtain and analyze their data using predictive analytics.

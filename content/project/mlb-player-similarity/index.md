@@ -1,12 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Mlb Player Similarity"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2021-01-18T19:27:49-05:00
+title: "MLB Player Similarity"
+summary: "Using stats to determine how similar baseball players are to each other."
+authors: 
+  - admin
+tags: 
+  - Other
+categories: 
+  - Machine Learning
+  - Operations Research
+  - R
+date: 2013-06-01T19:27:49-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,7 +21,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Smart"
   preview_only: false
 
 # Custom links (optional).
@@ -39,3 +44,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Using a combination of dynamic programming and social network analysis, I compare a player's career stats against other players to figure out who are the most similar. After determining which players are similar, I use various social network analysis techniques to be able to cluster and categorize players.

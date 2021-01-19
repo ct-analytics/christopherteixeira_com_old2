@@ -1,12 +1,16 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Tram"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2021-01-18T19:30:29-05:00
+title: "Transit Risk and Assessment Methodology"
+summary: "Risk analysis combined with data to protect transit systems."
+authors: 
+  - admin
+tags: 
+  - SAIC
+categories: 
+  - Excel
+  - Operations Research
+date: 2006-07-01T19:30:29-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,7 +20,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Smart"
   preview_only: false
 
 # Custom links (optional).
@@ -39,3 +43,9 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Served as the data manager for analysis of counter-terrorism defense measures in place for several mass transit systems under the Transit Risk Assessment Module (TRAM). Assisted in recording data at meetings and on-site visits. Track changes to and finalize documents for delivery to the customer. Performed cost-benefit analysis (CBA) for several jurisdictions using the Risk Management Tool (RMT). Prepared materials for TRAM workshops and adjusted data during the workshops to provide accurate results. Aided as the CBA specialist during the TRAM workshops. Instructed on proper use of the RMT software.
+
+Updated the TRAM methodology to include multi-hazards and aggregated decision tactics. Built the new methodology into EXCEL through worksheet functions and VBA.
+
+Using specific projects developed by Port Authority of New York and New Jersey (PANYNJ), adjusted pieces of the risk formula and calculated a ten year lifecycle cost in order to analyze and update the priority of projects to be implemented. Developed a specialized toolkit in EXCEL to run a cost benefit analysis and select optimal points using a pareto frontier.

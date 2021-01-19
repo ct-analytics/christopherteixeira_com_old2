@@ -1,12 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Vba Command and Control Model"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2021-01-18T19:30:41-05:00
+title: "Veteran Benefits Administration Command and Control Model"
+summary: "Understand bottlenecks and other systemic issues to increase system efficiency."
+authors: 
+  - admin
+tags: 
+  - MITRE
+categories: 
+  - Data Visualization
+  - Operations Research
+  - Data Analytics
+date: 2016-01-18T19:30:41-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,7 +21,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Smart"
   preview_only: false
 
 # Custom links (optional).
@@ -39,3 +44,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Coordinate efforts and approaches between teams to optimize approaches. Advise on the use of data for inputs into a discrete event simulation and the model out visualization.

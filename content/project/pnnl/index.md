@@ -1,11 +1,15 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Pnnl"
-summary: ""
-authors: []
-tags: []
-categories: []
+title: "Port Operations Analysis for PNNL"
+summary: "Simulate port operations to optimize tradeoff between speed and security."
+authors: 
+  - admin
+tags: 
+  - SAIC
+categories: 
+  - Operations Research
+  - AnyLogic
 date: 2021-01-18T19:28:11-05:00
 
 # Optional external URL for project (replaces project detail page).
@@ -16,7 +20,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Smart"
   preview_only: false
 
 # Custom links (optional).
@@ -39,3 +43,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Using AnyLogic to build a combined Discrete Event / Agent Based model to determine the effects of introducing delays to a seaport's operations. Build reports given the results of a sensitivity analysis or Monte Carlo run version of the model. Compiled an applet version of the model and combined with an HTML interface to supply to the customer.

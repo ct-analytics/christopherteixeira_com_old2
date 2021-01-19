@@ -1,12 +1,21 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Jieddo"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2021-01-18T19:27:23-05:00
+title: "JIEDDO - Operations Research and Systems Analysis Support"
+summary: "Supporting the warfighter with data"
+authors: 
+  - admin
+tags: 
+  - IBM
+categories: 
+  - Data Visualization
+  - Operations Research
+  - Statistics
+  - SAS
+  - Data Analytics
+  - R
+  - SQL
+date: 2011-03-01T19:27:23-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -15,8 +24,8 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: "Courtesy of JIEDDO"
+  focal_point: "Smart"
   preview_only: false
 
 # Custom links (optional).
@@ -39,3 +48,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+I support JIEDDO using various analytical techniques including Analytic Hierarchy Process (AHP) and Regression Analysis. I created and tested a metric to help support decision making for various groups of people working with JIEDDO. I transferred complicated projects in EXCEL and ACCESS to SAS, improving the run-time and product quality. I created SAS Stored Processes to help streamline report generation, support business intelligence, and produce high quality graphics for all customers. I wrote a process to clean raw data and format the data using regular expression parsing on ingest of the data feeds. I integrated a process to parse XML files and create new databases from the results, making new sources of data available for a multitude of colleagues. I designed a database to enhance reporting and help determine an optimal solution to a resource allocation problem.
+
+Image: US soldiers examine evidence at an IED training site at the National Training Center at Fort Irwin, California, US. 

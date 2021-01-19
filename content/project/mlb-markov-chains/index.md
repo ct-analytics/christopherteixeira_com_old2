@@ -1,6 +1,6 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
-
+draft: true
 title: "Mlb Markov Chains"
 summary: ""
 authors: []

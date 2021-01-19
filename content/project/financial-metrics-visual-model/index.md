@@ -2,11 +2,16 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Financial Metrics Visual Model"
-summary: ""
-authors: []
-tags: []
-categories: []
-date: 2021-01-18T19:27:15-05:00
+summary: "Using simple modeling techniques to understand impact to corporate finances"
+authors: 
+  - admin
+tags: 
+  - MITRE
+categories: 
+  - Data Visualization
+  - AnyLogic
+  - R
+date: 2015-08-01T19:27:15-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,7 +21,7 @@ external_link: ""
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: "Smart"
   preview_only: false
 
 # Custom links (optional).
@@ -39,3 +44,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+The Financial Metrics Visual Model is a tool designed to help MITRE leadership understand the impact of their decisions on high-level MITRE financial metrics. Working with members of the MITRE Finance department, I created a interactive system dynamics model that will allow the user to adjust high level inputs to see how they impact both MITRE financial metrics and other intermediate values used in calculating those metrics.
