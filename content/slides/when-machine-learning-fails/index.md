@@ -27,7 +27,7 @@ Christopher Teixeira
 
 ## A little about me
 
-Christopher Teixeira <br>
+### Christopher Teixeira
 Principal Data Scientist <br>
 The MITRE Corporation <br>
 - MS in Operations Research from George Mason University
