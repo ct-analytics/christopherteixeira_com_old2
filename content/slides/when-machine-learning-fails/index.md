@@ -21,18 +21,27 @@ slides:
 # When Machine Learning Fails
 
 Christopher Teixeira
-Twitter @CT_Analytics
+<br> @CT_Analytics
 
 ---
 
 ## A little about me
 
-Christopher Teixeira
-Principal Data Scientist 
-The MITRE Corporation
+Christopher Teixeira <br>
+Principal Data Scientist <br>
+The MITRE Corporation <br>
 - MS in Operations Research from George Mason University
 - BS in Mathematics from Worcester Polytechnic Institute
 
 ---
 
+## Tell me a little about you
 
+Insert a poll on academic background
+
+---
+
+## Thank you
+
+Christopher Teixeira <br>
+(cteixeira@mitre.org)[mailto:cteixeira@mitre.org]
