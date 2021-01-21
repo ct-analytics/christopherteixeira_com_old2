@@ -88,7 +88,7 @@ $dotWidth: 25px
 $active: #2C3E50
 $inactive: #AEB6BF
 
-html
+/* html
 	height: 100%
 body
 	min-height: 100%
@@ -100,7 +100,7 @@ body
 	padding: 0 25px
 	display: flex
 	flex-direction: column
-	position: relative
+	position: relative */
 .flex-parent
 	display: flex
 	flex-direction: column
@@ -199,15 +199,13 @@ input
 
 
 // magic shenanigans
-$descriptions: '1910', '1920', '1930', '1940', '1950', '1960', '1970', '1980', '1990', '2000'
+$descriptions: '1', '2', '3', '4', '5', '6'
 
 @each $desc in $descriptions
 	input[data-description="#{$desc}"]:checked ~ #timeline-descriptions-wrapper
 		p[data-description="#{$desc}"]
 			display: block
-
-
-
+      
 
 @media (min-width: $parentMaxWidth / $parentWidthBase)
 	.input-flex-container
