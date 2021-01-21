@@ -20,16 +20,16 @@ slides:
 
 # When Machine Learning Fails
 
-Christopher Teixeira
-<br> @CT_Analytics
+## Christopher Teixeira
+April 1, 2021
 
 ---
 
 ## A little about me
 
 ### Christopher Teixeira
-Principal Data Scientist <br>
-The MITRE Corporation <br>
+#### Principal Data Scientist <br>
+#### (The MITRE Corporation)[www.mitre.org] <br>
 - MS in Operations Research from George Mason University
 - BS in Mathematics from Worcester Polytechnic Institute
 
@@ -41,7 +41,36 @@ Insert a poll on academic background
 
 ---
 
+## What is Machine Learning?
+
+---
+
+## What can it be used for?
+
+---
+
+## Machine Learning can be great
+- Helps you 
+
+---
+
+## Sometimes things go wrong...
+- highlight a couple news stories
+
+---
+
+## What are some causes for these issues?
+
+---
+
+## How can you avoid these?
+
+---
+
 ## Thank you
 
 Christopher Teixeira <br>
-(cteixeira@mitre.org)[mailto:cteixeira@mitre.org]
+[cteixeira@mitre.org](mailto:cteixeira@mitre.org)
+
+<i class="fab fa-linkedin"></i> [linkedin.com/in/christopherteixeira](https://www.linkedin.com/in/christopherteixeira/)
+<i class="fab fa-twitter-square"></i> [@CT_Analytics](https://twitter.com/CT_Analytics)
