@@ -68,14 +68,14 @@ April 1, 2021
 			<span class="year">July 2014</span>
 			<span class="label">Start at MITRE</span>
 		</div>
-		<!--vdiv id="timeline-descriptions-wrapper">
+		<div id="timeline-descriptions-wrapper">
 			<p data-description="1">And future Call of Duty players would thank them.</p>
 			<p data-description="2">Because every kid should get to be Tarzan for a day.</p>
 			<p data-description="3">And the world rejoiced.</p>
 			<p data-description="4">Because building roads is inconvenient.</p>
 			<p data-description="5">Ain’t nobody got time to rake.</p>
 			<p data-description="6">Because paper currency is for noobs.</p>
-		</div -->
+		</div>
 	</div>
 </div>
 
@@ -83,12 +83,12 @@ April 1, 2021
 $numDots: 20
 $parentWidthBase: 0.8
 $parentWidth: $parentWidthBase * 100vw
-$parentMaxWidth: 1000px
+$parentMaxWidth: 800px
 $dotWidth: 25px
 $active: #2C3E50
 $inactive: #AEB6BF
 
-/* html
+html
 	height: 100%
 body
 	min-height: 100%
@@ -100,7 +100,7 @@ body
 	padding: 0 25px
 	display: flex
 	flex-direction: column
-	position: relative */
+	position: relative
 .flex-parent
 	display: flex
 	flex-direction: column
@@ -205,7 +205,7 @@ $descriptions: '1', '2', '3', '4', '5', '6'
 	input[data-description="#{$desc}"]:checked ~ #timeline-descriptions-wrapper
 		p[data-description="#{$desc}"]
 			display: block
-      
+
 
 @media (min-width: $parentMaxWidth / $parentWidthBase)
 	.input-flex-container
