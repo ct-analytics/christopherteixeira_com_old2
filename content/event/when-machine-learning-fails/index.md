@@ -2,15 +2,9 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "When Machine Learning Fails"
-event:
-event_url:
-location:
-address:
-  street:
-  city:
-  region:
-  postcode:
-  country:
+event: East Coast Optimization Meeting 2021
+event_url: http://math.gmu.edu/~hantil/ECOM/2021/
+location: Virtual
 summary:
 abstract:
 
