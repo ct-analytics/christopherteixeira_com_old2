@@ -37,7 +37,7 @@ image:
 projects: ["mlb-player-similarity"]
 ---
 
-As I mentioned in [Similar Players in MLB](), I want to be able to see how similar players can be. I decided to take a somewhat different approach by looking at how a player's career compares against another player's career. In order to put things in terms of a career, I didn't want to simply sum up their statistics or normalize given the number of years they played. I wanted to be able to compare a player's second year against another player's second year. This isn't a simple problem though.
+As I mentioned in [Similar Players in MLB]({{< relref "/post/2019-11-08-mlb-player-similarity-intro" >}}), I want to be able to see how similar players can be. I decided to take a somewhat different approach by looking at how a player's career compares against another player's career. In order to put things in terms of a career, I didn't want to simply sum up their statistics or normalize given the number of years they played. I wanted to be able to compare a player's second year against another player's second year. This isn't a simple problem though.
 
 First part of the problem, what statistics do you use to compare two different players? Using the [Lahman Database](http://www.seanlahman.com/baseball-archive/statistics/), I had easy access to the common statistics like games played, at bats, runs scored, hits, doubles, triples, etc. However, this database doesn't simply just have the counting stats by year. It is a compiled record of stats by league and team. In order to simplify the data collection, I aggregated the information up to the combination of player and year.
 
