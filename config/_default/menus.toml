@@ -48,5 +48,5 @@
 # todo: update resume url
 [[main]]
    name = "Resume"
-   url = "media/files/CTeixeira_Resume.pdf"
+   url = "files/CTeixeira_Resume.pdf"
    weight = 70
