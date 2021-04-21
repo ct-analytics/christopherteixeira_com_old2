@@ -140,17 +140,17 @@ URL = "s3://christopherteixeira.com?region=us-east-1"
 # include = "**.html" # would only include files with ".html" suffix
 # exclude = "**.{jpg, png}" # would exclude files with ".jpg" or ".png" suffix
 
-[[deployment.matchers]]
+#[[deployment.matchers]]
 #  Cache static assets for 1 year.
-pattern = "^.+\\.(js|css|svg|ttf)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = true
+# pattern = "^.+\\.(js|css|svg|ttf)$"
+# cacheControl = "max-age=31536000, no-transform, public"
+# gzip = true
 
-[[deployment.matchers]]
-pattern = "^.+\\.(png|jpg)$"
-cacheControl = "max-age=31536000, no-transform, public"
-gzip = false
+# [[deployment.matchers]]
+# pattern = "^.+\\.(png|jpg)$"
+# cacheControl = "max-age=31536000, no-transform, public"
+# gzip = false
 
-[[deployment.matchers]]
-pattern = "^.+\\.(html|xml|json)$"
-gzip = true
+# [[deployment.matchers]]
+# pattern = "^.+\\.(html|xml|json)$"
+# gzip = true
