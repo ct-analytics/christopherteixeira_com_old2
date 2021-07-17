@@ -266,8 +266,8 @@ plugins_js  = []
 
 # todo: add in google analytics
 [marketing]
-  google_analytics = ""
-  google_tag_manager = ""
+  google_analytics = "UA-8787445-8"
+  google_tag_manager = "GTM-K2HVZX2"
 
 ############################
 ## Content Management System
