@@ -42,22 +42,17 @@ logo <- logo.dots %>%
   left_join(logo.t) %>%
   mutate(color=coalesce(color.t,color.c,color)) %>%
   select(-color.t,-color.c)
+
+# transparent logo
   
 ggplot(logo,aes(x=x,y=y,color=color)) + 
   geom_point() +
-  # ylab("") + xlab("") +
   scale_color_manual(values=c("#CCCCCC","#212529")) +
   theme(
-        # Blue
-        panel.background = element_rect(fill="#0088CC",
-                                        color="#0088CC"),
-        plot.background = element_rect(fill="#0088CC",
-                                       color="#0088CC"),
-        # tranparent
-        # panel.background = element_rect(fill="transparent",
-        #                                 color=NA),
-        # plot.background = element_rect(fill="transparent",
-        #                                color=NA),
+        panel.background = element_rect(fill="transparent",
+                                        color=NA),
+        plot.background = element_rect(fill="transparent",
+                                       color=NA),
         panel.grid = element_blank(),
         axis.text = element_blank(),
         axis.ticks = element_blank(),
@@ -67,3 +62,45 @@ ggplot(logo,aes(x=x,y=y,color=color)) +
 ggsave("logo-high-transparent.png", dpi=320, width=6, height = 6, units="in")
 ggsave("logo-print-transparent.png", dpi=300, width=6, height = 6, units="in")
 ggsave("logo-low-transparent.png", dpi=72, width=6, height = 6, units="in")
+
+# blue background
+
+ggplot(logo,aes(x=x,y=y,color=color)) + 
+  geom_point() +
+  scale_color_manual(values=c("#CCCCCC","#212529")) +
+  theme(
+    panel.background = element_rect(fill="#0088CC",
+                                    color="#0088CC"),
+    plot.background = element_rect(fill="#0088CC",
+                                   color="#0088CC"),
+
+    panel.grid = element_blank(),
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    axis.title = element_blank(),
+    legend.position = 'none')
+
+ggsave("logo-high-blue.png", dpi=320, width=6, height = 6, units="in")
+ggsave("logo-print-blue.png", dpi=300, width=6, height = 6, units="in")
+ggsave("logo-low-blue.png", dpi=72, width=6, height = 6, units="in")
+
+# dark logo
+
+ggplot(logo,aes(x=x,y=y,color=color)) + 
+  geom_point() +
+  scale_color_manual(values=c("#CCCCCC","#0088CC")) +
+  theme(
+    
+    panel.background = element_rect(fill="#212529",
+                                    color="#212529"),
+    plot.background = element_rect(fill="#212529",
+                                   color="#212529"),
+    panel.grid = element_blank(),
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    axis.title = element_blank(),
+    legend.position = 'none')
+
+ggsave("logo-high-dark.png", dpi=320, width=6, height = 6, units="in")
+ggsave("logo-print-dark.png", dpi=300, width=6, height = 6, units="in")
+ggsave("logo-low-dark.png", dpi=72, width=6, height = 6, units="in")

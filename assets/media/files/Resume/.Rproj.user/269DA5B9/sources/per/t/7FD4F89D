@@ -1,25 +1,25 @@
 {
-    "collab_server" : "",
-    "contents" : "",
-    "created" : 1590963763713.000,
-    "dirty" : false,
-    "encoding" : "UTF-8",
-    "folds" : "",
-    "hash" : "688005591",
-    "id" : "7FD4F89D",
-    "lastKnownWriteTime" : 1597015753,
-    "last_content_update" : 1597015753170,
-    "path" : "~/Google Drive/Side Projects/Website/christopherteixeira_com/static/files/Resume/cv.Rmd",
-    "project_path" : "cv.Rmd",
-    "properties" : {
-        "cursorPosition" : "55,0",
-        "scrollLine" : "54"
+    "id": "7FD4F89D",
+    "path": "~/Google Drive/Side Projects/Website/christopherteixeira_com/assets/media/files/Resume/cv.Rmd",
+    "project_path": "cv.Rmd",
+    "type": "r_markdown",
+    "hash": "688005591",
+    "contents": "",
+    "dirty": false,
+    "created": 1590963763713.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "3,8",
+        "scrollLine": "0",
+        "Source": "Source"
     },
-    "read_only" : false,
-    "read_only_alternatives" : [
-    ],
-    "relative_order" : 1,
-    "source_on_save" : false,
-    "source_window" : "",
-    "type" : "r_markdown"
+    "folds": "",
+    "lastKnownWriteTime": 1625441757,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1625441757,
+    "read_only": false,
+    "read_only_alternatives": []
 }

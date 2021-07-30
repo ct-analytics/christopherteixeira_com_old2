@@ -1,24 +1,25 @@
 {
     "id": "D0010556",
-    "path": "~/Google Drive/Side Projects/Website/christopherteixeira_com/static/img/Logo/logo.R",
+    "path": "~/Google Drive/Side Projects/Website/christopherteixeira_com/assets/media/img/Logo/logo.R",
     "project_path": "logo.R",
     "type": "r_source",
-    "hash": "1509316106",
+    "hash": "1951110680",
     "contents": "",
-    "dirty": false,
+    "dirty": true,
     "created": 1596997474962.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
-        "cursorPosition": "68,0",
-        "scrollLine": "0"
+        "cursorPosition": "65,0",
+        "scrollLine": "46",
+        "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1597014079,
+    "lastKnownWriteTime": 1627669206,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1597014079541,
+    "last_content_update": 1627669348621,
     "read_only": false,
     "read_only_alternatives": []
 }

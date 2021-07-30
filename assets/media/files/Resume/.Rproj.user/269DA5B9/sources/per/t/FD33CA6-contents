@@ -7,9 +7,7 @@ output:
     css: ['css/custom_resume.css', 'css/styles.css', 'resume']
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
-
 ---
-
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
@@ -37,34 +35,25 @@ position_data <- read_csv('positions_updated.csv') %>%
   ) 
 ```
 
+# Aside
 
-Aside
-================================================================================
+![logo](../../img/Logo/logo-high-transparent.png){width="100%"}
 
+<!-- ![logo](../../icon.png){width="100%"} -->
 
-![logo](../../img/Logo/logo-high-transparent.png){width=100%}
+<br> <br>
 
-<br>
-<br>
+## Contact {#contact}
 
-Contact {#contact}
---------------------------------------------------------------------------------
+-   <i class="fa fa-envelope"></i> [chris\@christopherteixeira.com](mailto:chris@christopherteixeira.com){.email}
+-   <i class="fa fa-twitter"></i> [CT_Analytics](https://mobile.twitter.com/CT_Analytics)
+-   <i class="fa fa-github"></i> [github.com/ct-analytics](https://github.com/ct-analytics)
+-   <i class="fa fa-linkedin"></i> [linkedin/in/christopherteixeira](https://www.linkedin.com/in/christopherteixeira/)
+-   <i class="fa fa-link"></i> [christopherteixeira.com](http://christopherteixeira.com/)
 
+<br> <br>
 
-
-- <i class="fa fa-envelope"></i> chris@christopherteixeira.com
-- <i class="fa fa-twitter"></i> [CT_Analytics](https://mobile.twitter.com/CT_Analytics)
-- <i class="fa fa-github"></i> [github.com/ct-analytics](https://github.com/ct-analytics)
-- <i class="fa fa-linkedin"></i> [linkedin/in/christopherteixeira](https://www.linkedin.com/in/christopherteixeira/)
-- <i class="fa fa-link"></i> [christopherteixeira.com](http://christopherteixeira.com/)
-
-<br>
-<br>
-
-
-Language Skills {#skills}
---------------------------------------------------------------------------------
-
+## Language Skills {#skills}
 
 ```{r}
 skills <- tribble(
@@ -82,32 +71,23 @@ skills <- tribble(
 build_skill_bars(skills)
 ```
 
-<br>
-<br>
+<br> <br>
 
-More info {#more-info}
---------------------------------------------------------------------------------
+## More info {#more-info}
 
 See full CV at [christopherteixeira.com/cv](http://christopherteixeira.com/cv) for a more complete list of projects and publications.
 
+## Disclaimer {#disclaimer}
 
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-
-Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
+Made w/ [**pagedown**](https://github.com/rstudio/pagedown).
 
 Source code: [github.com/ct-analytics/Resume](https://github.com/ct-analytics/Resume).
 
 Last updated on `r Sys.Date()`.
 
+# Main
 
-
-
-Main
-================================================================================
-
-Christopher M. Teixeira {#title}
---------------------------------------------------------------------------------
+## Christopher M. Teixeira {#title}
 
 ```{r}
 intro_text <- "I have supported a variety of federal and commercial customers over my career. The common theme across my career is using data to support decision making amongst my customers. Traditionally, this means being able to understand how it was collected and its weaknesses, adding value through incorporation into a model, and communicating it through a medium like interactive visualizations. 
@@ -115,37 +95,26 @@ intro_text <- "I have supported a variety of federal and commercial customers ov
 cat(sanitize_links(intro_text))
 ```
 
-
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
+## Education {data-icon="graduation-cap" data-concise="true"}
 
 ```{r}
 position_data %>% print_section('education')
 ```
 
-
-
-Work Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
+## Work Experience {data-icon="suitcase"}
 
 ```{r}
 position_data %>% print_section('positions')
 ```
 
-
-Selected Projects {data-icon=clipboard-list}
---------------------------------------------------------------------------------
+## Selected Projects {data-icon="clipboard-list"}
 
 ```{r}
 print_section(position_data, 'work_projects')
 ```
 
-Selected Writing {data-icon=newspaper}
---------------------------------------------------------------------------------
-
+## Selected Writing {data-icon="newspaper"}
 
 ```{r}
 position_data %>% print_section('writings')
 ```
-
