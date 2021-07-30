@@ -11,3 +11,4 @@ static/media/files/Resume/.DS_Store
 .DS_Store
 assets/media/files/Resume/.Rproj.user/
 assets/media/img/Logo/.Rproj.user/
+*.Rhistory
