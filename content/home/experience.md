@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - company: The MITRE Corporation
-    company_url: ''
+    company_url: 'https://www.mitre.org'
     company_logo: Mitre_Corporation_logo
     date_end: ''
     date_start: '2014-07-01'
@@ -34,7 +34,7 @@ experience:
     location: Massachusetts
     title: Principal Data Scientist
   - company: Epsilon
-    company_url: ''
+    company_url: 'https://www.epsilon.com/'
     company_logo: epsilon-logo--white-tm
     date_end: '2014-06-30'
     date_start: '2012-08-01'
@@ -48,7 +48,7 @@ experience:
     location: Massachusetts
     title: Senior Analytic Consultant
   - company: IBM
-    company_url: ''
+    company_url: 'https://www.ibm.com/'
     company_logo: IBM_core_gray60_on_white
     date_end: '2012-07-31'
     date_start: '2011-11-01'
@@ -69,7 +69,7 @@ experience:
     location: Virginia
     title: Advanced Analytics Senior Consultant
   - company: SAIC
-    company_url: ''
+    company_url: 'https://www.saic.com/'
     company_logo: SAIC_Logo_2013-05-10
     date_end: '2011-10-31'
     date_start: '2006-06-01'
